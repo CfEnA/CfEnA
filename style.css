@@ -1,0 +1,98 @@
+body {
+position: absolute;
+left: 0px;
+right: 0px;
+}
+main {
+position: relative;
+top: 200px;
+right: 0px;
+left: 0px;
+}
+header {
+background-color: slateblue;
+position: fixed;
+top: 0px;
+left: 0px;
+right: 0px;
+height:200px;
+background-image: url("Back1.jpg")
+}
+
+a {
+text-decoration: none;
+color: white;
+}
+
+#Logo{
+font-family: "Sofia", sans-serif;
+font-size: 40px;
+font-color: white;
+position: fixed;
+margin-right: 1000px;
+top: 60px;
+left: 40px;
+}
+nav {
+position: fixed;
+text-format: none;
+top: 125px;
+left: 200px;
+}
+footer {
+background-color: slateblue;
+position: fixed;
+bottom: 0px;
+height: 40px;
+right: 0px;
+left: 0px;
+}
+#nav1, #nav2 {
+border: 2px solid green;
+margin-left: 40px;
+}
+.social-medias {
+position: fixed;
+right: 40px;
+top:125px;
+}
+.contact-at-the-footer {
+text-size: 10px;
+}
+.contact-at-the-footer:link {
+color: white;
+position: fixed;
+left: 40px;
+bottom: 8px;
+font-family: "Trirong", serif;
+font-size: 20px;
+}
+.contact-at-the-footer:hover {
+text-decoration: underline;
+}
+
+.contact-at-the-footer:active {
+text-decoration: underline;
+}
+.our-sg {
+text-align: center;
+}
+h1 {
+font-family: "Audiowide", sans-serif;
+}
+.hardwares {
+text-align: center;
+padding: 10px;
+}
+#Rasp {
+margin-left: 20px;
+margin-right: 20px;
+}
+.softwares {
+text-align: center;
+padding: 10px;
+}
+#Python {
+margin-left: 40px;
+margin-top: 10px;
+}
