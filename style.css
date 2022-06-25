@@ -8,14 +8,17 @@ position: relative;
 top: 200px;
 right: 0px;
 left: 0px;
+bottom: 40px;
+z-index:100;
 }
 header {
 background-color: slateblue;
 position: fixed;
 top: 0px;
-left: 0px;
-right: 0px;
 height:200px;
+right: 0px;
+left: 0px;
+z-index:200;
 background-image: url("Back1.jpg")
 }
 
@@ -30,7 +33,7 @@ font-size: 40px;
 font-color: white;
 position: fixed;
 margin-right: 1000px;
-top: 60px;
+top: 100px;
 left: 40px;
 }
 nav {
@@ -38,15 +41,10 @@ position: fixed;
 text-format: none;
 top: 125px;
 left: 200px;
+display: block;
+font-size: bold;
 }
-footer {
-background-color: slateblue;
-position: fixed;
-bottom: 0px;
-height: 40px;
-right: 0px;
-left: 0px;
-}
+
 #nav1, #nav2 {
 border: 2px solid green;
 margin-left: 40px;
@@ -55,6 +53,15 @@ margin-left: 40px;
 position: fixed;
 right: 40px;
 top:125px;
+}
+footer {
+background-color: slateblue;
+position: fixed;
+bottom: 0px;
+height: 40px;
+right: 0px;
+left: 0px;
+z-index:200;
 }
 .contact-at-the-footer {
 text-size: 10px;
@@ -95,4 +102,13 @@ padding: 10px;
 #Python {
 margin-left: 40px;
 margin-top: 10px;
+}
+.hardwares p, .softwares p {
+font-family: "Trirong", serif;
+font-size: 30px;
+color: indigo;
+text-decoration-line: underline;
+}
+.trainings {
+border: 3px solid black;
 }
