@@ -94,8 +94,8 @@ font-family: "Audiowide", sans-serif;
 margin-bottom: 40px;
 }
 .hardwares {
-position: relative;
-text-align: left;
+/*position: relative;
+text-align: left;*/
 padding: 10px;
 margin-bottom: 60px;
 }
@@ -119,7 +119,7 @@ text-decoration-line: underline;
 }
 .trainings {
 position: relative;
-left: 100px;
+left: 90px;
 right: 0px;
 margin-top: 0px;
 top: 0px;
